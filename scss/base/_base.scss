@@ -1,0 +1,24 @@
+
+
+
+/* Type Selector*/
+body{ 
+    margin: 0;
+    background-color: $white;
+}
+
+
+/* Links */
+a{
+    &:link {
+        color: $white;
+        text-decoration: none;
+    }
+    &:visited {
+        color: $white;
+    }
+    &:hover {
+        color: $white;
+    }
+}
+

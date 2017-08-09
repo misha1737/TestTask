@@ -1,0 +1,22 @@
+@mixin text($size:24px, $family:$stack-PTSansRegular, $color:$black, $lineheight:null, $weight:null){
+    font-size: $size;
+    font-family: $family;
+    color: $color;
+    line-height: $lineheight;
+    font-weight: $weight;
+}
+
+@mixin button($size:30px, $padding:20px, $width: 100%,$backgroundColor:$orange,$color:$white,$family:$stack-PTSansBold){
+	font-size: $size;
+	padding: $padding;
+	width: $width;
+	background-color: $backgroundColor;
+	color:$color;
+	font-family: $family;
+	border: none;
+	border-bottom: 5px solid $red;
+	 &:hover{
+	 	border-bottom: 5px solid $white;
+	 	background-color: $backgroundColor/1.2;
+	 }
+}

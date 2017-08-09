@@ -1,0 +1,36 @@
+footer{
+	h4{
+		@include text(36px);
+		text-align: center;
+	}
+	p{
+		@include text(36px, $stack-PTSansBold);
+		text-align: center;
+	}
+	button{
+		@include button(36px, 10px);
+		margin: 20px 0;
+	}
+	.fa-vk{
+		color: #4a6783;
+		font-size: 60px;
+		line-height: 120px;
+		padding: 10px;
+	}
+	.fa-facebook-square{
+		color: #3c5996;
+		font-size: 60px;
+		line-height: 120px;
+		padding: 10px;
+	}
+	.fa-twitter-square{
+		color: #31a9f2;
+		font-size: 60px;
+		line-height: 120px;
+		padding: 10px;
+	}
+	.social{
+		text-align: center;
+	}
+}
+
